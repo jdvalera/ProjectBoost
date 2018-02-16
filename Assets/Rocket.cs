@@ -28,7 +28,10 @@ public class Rocket : MonoBehaviour {
         switch (collision.gameObject.tag)
         {
             case "Friendly":
-                print("OK");
+                print("OK"); // todo remove
+                break;
+            case "Fuel":
+                print("Fuel"); //todo remove
                 break;
             default:
                 print("Dead");
