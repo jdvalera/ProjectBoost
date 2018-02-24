@@ -458,6 +458,24 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 53f71b9725e9d94488d42e0f56d94fae, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &1625930183 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1475700283848014, guid: dcaad0723d60f9b46bd3ff0c0e4a72c1,
+    type: 2}
+  m_PrefabInternal: {fileID: 1762891342}
+--- !u!114 &1625930188
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1625930183}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22a8a340cce5ad4418373cea5bf85757, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  movementVector: {x: 10, y: 0, z: 0}
+  movementFactor: 0
 --- !u!1001 &1691084230
 Prefab:
   m_ObjectHideFlags: 0
@@ -631,30 +649,6 @@ Prefab:
     - target: {fileID: 4508424170649302, guid: 482117039198bad4f82a9155be1dc033, type: 2}
       propertyPath: m_RootOrder
       value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 4563816695989860, guid: 482117039198bad4f82a9155be1dc033, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4563816695989860, guid: 482117039198bad4f82a9155be1dc033, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4563816695989860, guid: 482117039198bad4f82a9155be1dc033, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4563816695989860, guid: 482117039198bad4f82a9155be1dc033, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4563816695989860, guid: 482117039198bad4f82a9155be1dc033, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4563816695989860, guid: 482117039198bad4f82a9155be1dc033, type: 2}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 482117039198bad4f82a9155be1dc033, type: 2}
